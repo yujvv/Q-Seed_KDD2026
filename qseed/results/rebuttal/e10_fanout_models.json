@@ -1,0 +1,98 @@
+{
+ "consumer_electronics": {
+  "google/gemini-2.5-flash-lite": {
+   "subQueriesPerCandidate": 4.65953488372093,
+   "dropRate": 0.06325581395348834,
+   "keptMeanSim": 0.7752946369091058,
+   "dropMeanSim": 0.5684016271128025,
+   "rhoWithSubmitted": 1,
+   "decisionAgreement": 1,
+   "kappa": 1,
+   "bankOverlapWithSubmitted": 50
+  },
+  "openai/gpt-4o-mini": {
+   "subQueriesPerCandidate": 4.999069767441861,
+   "dropRate": 0.037209302325581395,
+   "keptMeanSim": 0.7764785996063854,
+   "dropMeanSim": 0.5742471561410553,
+   "rhoWithSubmitted": 0.8400353407839238,
+   "decisionAgreement": 0.9609302325581396,
+   "kappa": 0.591993493583951,
+   "bankOverlapWithSubmitted": 48
+  },
+  "meta-llama/llama-3.3-70b-instruct": {
+   "subQueriesPerCandidate": 4.673488372093023,
+   "dropRate": 0.051162790697674376,
+   "keptMeanSim": 0.7776033016475584,
+   "dropMeanSim": 0.5791768584669134,
+   "rhoWithSubmitted": 0.8427059903250672,
+   "decisionAgreement": 0.9544186046511628,
+   "kappa": 0.5777385867169019,
+   "bankOverlapWithSubmitted": 47
+  }
+ },
+ "personal_finance": {
+  "google/gemini-2.5-flash-lite": {
+   "subQueriesPerCandidate": 4.769302325581395,
+   "dropRate": 0.008372093023255811,
+   "keptMeanSim": 0.7890653588864704,
+   "dropMeanSim": 0.5691435135717285,
+   "rhoWithSubmitted": 1,
+   "decisionAgreement": 1,
+   "kappa": 1,
+   "bankOverlapWithSubmitted": 50
+  },
+  "openai/gpt-4o-mini": {
+   "subQueriesPerCandidate": 4.9981395348837205,
+   "dropRate": 0.0046511627906976605,
+   "keptMeanSim": 0.7893173667665201,
+   "dropMeanSim": 0.5669494757180368,
+   "rhoWithSubmitted": 0.7335625529681198,
+   "decisionAgreement": 0.9906976744186047,
+   "kappa": 0.2814171122994694,
+   "bankOverlapWithSubmitted": 50
+  },
+  "meta-llama/llama-3.3-70b-instruct": {
+   "subQueriesPerCandidate": 4.812093023255814,
+   "dropRate": 0.0046511627906976605,
+   "keptMeanSim": 0.7892713523852537,
+   "dropMeanSim": 0.5578779357742383,
+   "rhoWithSubmitted": 0.7566997044071689,
+   "decisionAgreement": 0.9906976744186047,
+   "kappa": 0.2814171122994694,
+   "bankOverlapWithSubmitted": 50
+  }
+ },
+ "health_wellness": {
+  "google/gemini-2.5-flash-lite": {
+   "subQueriesPerCandidate": 4.723148148148148,
+   "dropRate": 0.050000000000000044,
+   "keptMeanSim": 0.7651355042304072,
+   "dropMeanSim": 0.5750269097195788,
+   "rhoWithSubmitted": 1,
+   "decisionAgreement": 1,
+   "kappa": 1,
+   "bankOverlapWithSubmitted": 50
+  },
+  "openai/gpt-4o-mini": {
+   "subQueriesPerCandidate": 4.999074074074074,
+   "dropRate": 0.03518518518518521,
+   "keptMeanSim": 0.7712028927992078,
+   "dropMeanSim": 0.5774669042850037,
+   "rhoWithSubmitted": 0.8591369293366189,
+   "decisionAgreement": 0.9574074074074074,
+   "kappa": 0.4784580498866216,
+   "bankOverlapWithSubmitted": 50
+  },
+  "meta-llama/llama-3.3-70b-instruct": {
+   "subQueriesPerCandidate": 4.730555555555555,
+   "dropRate": 0.03518518518518521,
+   "keptMeanSim": 0.7723337866671245,
+   "dropMeanSim": 0.5800702436591557,
+   "rhoWithSubmitted": 0.8522262684543402,
+   "decisionAgreement": 0.9518518518518518,
+   "kappa": 0.4104308390022682,
+   "bankOverlapWithSubmitted": 50
+  }
+ }
+}

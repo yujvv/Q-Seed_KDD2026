@@ -1,0 +1,123 @@
+{
+ "id": "gen-1790856813-wNKmy2Is8NRZpHhdtN7A",
+ "object": "chat.completion",
+ "created": 1790856813,
+ "model": "openai/gpt-4.1-mini",
+ "provider": "OpenAI",
+ "system_fingerprint": null,
+ "service_tier": "default",
+ "choices": [
+  {
+   "index": 0,
+   "logprobs": null,
+   "finish_reason": "stop",
+   "native_finish_reason": "completed",
+   "message": {
+    "role": "assistant",
+    "content": "For long flights, noise-canceling headphones are essential to ensure a comfortable and immersive experience. Here are some top-rated options under $300 as of October 2026:\n\n\n\n**Sony WH-1000XM4**  \nRenowned for its industry-leading active noise0384864.html?utm_source=openai)\n**Sony WH-1000XM4**  \nRenowned for its industry-leading active noise cancellation (ANC), the WH-1000XM4 offers up to 30 hours of battery life with ANC activated. It features touch controls, multipoint connectivity, and supports high-resolution audio codecs like LDAC. Priced around $278, it remains a top choice for travelers seeking premium features at a reasonable price. ([cartiq.net](https://www.cartiq.net/us/electronics/best-noise-cancelling-headphones-in-the-us/?utm_source=openai))\n\n\n\n\n**Bose QuietComfort Ultra Headphones (2nd Gen)**  eureka.cz](https://sluchatka.heureka.cz/bose-quietcomfort-ultra-headphones/?utm_source=openai)\n**Bose QuietComfort Ultra Headphones (2nd Gen)**  \nThese headphones are praised for their exceptional ANC, comfort, and audio quality. They offer a balanced sound profile and are lightweight, making them ideal for extended wear during flights. Recently discounted to $399 from $449, they provide excellent value for their performance. ([techradar.com](https://www.techradar.com/audio/wireless-headphones/the-bose-quietcomfort-ultra-are-the-absolute-best-active-noise-cancelling-cans-for-the-money-now-back-to-a-record-low-price?utm_source=openai))\n\n\n\n\n**Anker Soundcore Space One Pro**  \nFor thoseoth Headphones](https://www.outdoorphoto.co.za/products/soundcore-space-one-pro-headphones-cream-white?utm_source=openai)\n**Anker Soundcore Space One Pro**  \nFor those seeking value, the Soundcore Space One Pro offers impressive ANC performance, comfort, and sound quality at a more affordable price point. It's a stellar choice for travelers who want quality without breaking the bank. ([tomsguide.com](https://www.tomsguide.com/us/best-noise-cancelling-headphones%2Creview-5566.html?utm_source=openai))\n\n\n\n\n**Marshall Monitor III**  \nKnown for its exceptional 70-hour every budget | Tom's Guide](https://www.tomsguide.com/audio/headphones/forget-airpods-max-heres-the-5-headphones-i-recommend-for-every-budget?utm_source=openai)\n**Marshall Monitor III**  \nKnown for its exceptional 70-hour battery life with ANC activated, the Marshall Monitor III combines long-lasting performance with strong audio quality. Its classic design and comfortable fit make it a solid choice for extended travel. ([tomsguide.com](https://www.tomsguide.com/us/best-noise-cancelling-headphones%2Creview-5566.html?utm_source=openai))\n\n\n\n\n**JLab JBuds Lux ANC**  \nFor budget-conscious travelers, the J, Built-In Microphone, Multipoint | Shopee Malaysia](https://shopee.com.my/JLAB-JBuds-Lux-ANC-Wireless-Over-Ear-Headphones-Spatial-Audio-Built-In-Microphone-Multipoint-i.409535872.26807756431?utm_source=openai)\n**JLab JBuds Lux ANC**  \nFor budget-conscious travelers, the JLab JBuds Lux ANC provides impressive performance and comfort at under $100. They offer effective noise cancellation and a comfortable fit, making them a great option for those looking to save without sacrificing quality. � ",
+    "refusal": null,
+    "reasoning": null,
+    "annotations": [
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.ldlc.com/fiche/PB00384864.html?utm_source=openai",
+       "title": "Sony WH-1000XM4 Noir - Casque - LDLC",
+       "start_index": 174,
+       "end_index": 274
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.cartiq.net/us/electronics/best-noise-cancelling-headphones-in-the-us/?utm_source=openai",
+       "title": "Best Noise Cancelling Headphones in the United States (2025) | CartIQ",
+       "start_index": 649,
+       "end_index": 764
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://sluchatka.heureka.cz/bose-quietcomfort-ultra-headphones/?utm_source=openai",
+       "title": "Bose QuietComfort Ultra Headphones od 7 577 Kč - Heureka.cz",
+       "start_index": 768,
+       "end_index": 913
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.techradar.com/audio/wireless-headphones/the-bose-quietcomfort-ultra-are-the-absolute-best-active-noise-cancelling-cans-for-the-money-now-back-to-a-record-low-price?utm_source=openai",
+       "title": "The Bose QuietComfort Ultra are 'the absolute best active noise cancelling cans for the money' - now back to a record low price",
+       "start_index": 1249,
+       "end_index": 1461
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.outdoorphoto.co.za/products/soundcore-space-one-pro-headphones-cream-white?utm_source=openai",
+       "title": "Soundcore Space One Pro Cream | Hi-Res Bluetooth Headphones",
+       "start_index": 1465,
+       "end_index": 1632
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.tomsguide.com/us/best-noise-cancelling-headphones%2Creview-5566.html?utm_source=openai",
+       "title": "The best noise-cancelling headphones in 2026",
+       "start_index": 1898,
+       "end_index": 2015
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.tomsguide.com/audio/headphones/forget-airpods-max-heres-the-5-headphones-i-recommend-for-every-budget?utm_source=openai",
+       "title": "Forget AirPods Max — here's the 5 headphones I recommend for every budget | Tom's Guide",
+       "start_index": 2019,
+       "end_index": 2241
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://shopee.com.my/JLAB-JBuds-Lux-ANC-Wireless-Over-Ear-Headphones-Spatial-Audio-Built-In-Microphone-Multipoint-i.409535872.26807756431?utm_source=openai",
+       "title": "JLAB JBuds Lux ANC Wireless Over-Ear Headphones, Spatial Audio, Built-In Microphone, Multipoint | Shopee Malaysia",
+       "start_index": 2626,
+       "end_index": 2899
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 8174,
+  "completion_tokens": 797,
+  "total_tokens": 8971,
+  "cost": 0.0145448,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0145448,
+   "upstream_inference_prompt_cost": 0.0032696,
+   "upstream_inference_completions_cost": 0.0012752
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  },
+  "server_tool_use_details": {
+   "web_search_requests": 1
+  }
+ }
+}

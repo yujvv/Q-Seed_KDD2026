@@ -1,0 +1,131 @@
+{
+ "id": "gen-1790856824-S1N8UJRXAhrRaEgm8ENH",
+ "object": "chat.completion",
+ "created": 1790856824,
+ "model": "anthropic/claude-haiku-4.5",
+ "provider": "Anthropic",
+ "system_fingerprint": null,
+ "service_tier": "default",
+ "choices": [
+  {
+   "index": 0,
+   "logprobs": null,
+   "finish_reason": "stop",
+   "native_finish_reason": "end_turn",
+   "message": {
+    "role": "assistant",
+    "content": "I'll search for the best noise cancelling headphones under $300 that are suitable for long flights.Based on current reviews and testing, here are the best noise cancelling headphones for long flights under $300:\n\n## Top Recommendations\n\n**Sony WH-1000XM5** - Best Overall\nThe Sony WH-1000XM5 is the best noise cancelling headphones under $300 in 2026, with eight microphones and dual processors that handle everything from plane noise to cafe chatter. The dual processor V1 setup with 8 microphones delivers the most effective noise cancellation tested under $300. It features a 30-hour battery and LDAC Hi-Res audio.\n\n**Anker Soundcore Q30** - Best Budget Option\nThe Soundcore Q30 offers budget-friendly hybrid ANC and a 50-hour battery for marathon travel days. The three ANC modes (Transport, Outdoor, Indoor) adapt well to airplane drone.\n\n**Sony WH-CH720N** - Best for Lightweight Comfort\nSony's WH-CH720N combines their legendary noise cancellation technology with an incredibly lightweight design that won't weigh you down during long flights. At 192 grams, the Sony WH-CH720N is the lightest headphone option.\n\n**Soundcore Q20i** - Best Value\nThe Soundcore Q20i features hybrid ANC, 60-hour battery, and 22 EQ presets.\n\n**Sony ULT WEAR** - Best for Bass Lovers\nThe Sony ULT Wear is an improved and modernized version of the Sony WH-1000XM4, with active noise cancelling performance that is fairly competitive with the more expensive WH-1000XM5.\n\nFor long flights specifically, prioritize models with extended battery life (30+ hours) and strong ANC performance for handling engine noise. The Sony WH-1000XM5 offers the best noise cancellation, while the Soundcore options provide excellent value with exceptional battery life.",
+    "refusal": null,
+    "reasoning": null,
+    "annotations": [
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.orchyd.com/best-noise-cancelling-headphones-under-300-dollars/",
+       "title": "8 Best Noise Cancelling Headphones Under $300 (September 2026)",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "If you want the absolute best noise cancelling headphones under 300 dollars in 2026, the Sony WH-1000XM5 is still the king, with eight microphones and..."
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.orchyd.com/best-noise-cancelling-headphones-under-300-dollars/",
+       "title": "8 Best Noise Cancelling Headphones Under $300 (September 2026)",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "The dual processor V1 setup with 8 microphones delivers the most effective noise cancellation I have tested under $300.\n\n"
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.orchyd.com/best-noise-cancelling-headphones-under-300-dollars/",
+       "title": "8 Best Noise Cancelling Headphones Under $300 (September 2026)",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "# 8 Best Noise Cancelling Headphones Under $300 (September 2026)\n## Top 3 Picks for Best Noise Cancelling Headphones Under 300\nSony WH-1000XM5\n\n### So..."
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.airfrov.com/travel/best-noise-cancelling-headphones-for-airplane/",
+       "title": "9 Best Noise Cancelling Headphones for Airplane 2026 - Airfrov",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "Anker Soundcore Q30\n\nBest Budget Option**Anker Soundcore Q30**\n\nBudget-friendly hybrid ANC and 50-hour battery for marathon travel days.\n\nSony ULT WEA..."
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.airfrov.com/travel/best-noise-cancelling-headphones-for-airplane/",
+       "title": "9 Best Noise Cancelling Headphones for Airplane 2026 - Airfrov",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "The three ANC modes (Transport, Outdoor, Indoor) adapt well to airplane drone, though the noise reduction doesn’t match class-leading Sony or Bose mod..."
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.eyeandpen.com/reviews/best-noise-cancelling-headphones-for-airplane/",
+       "title": "Best Noise Cancelling Headphones for Airplane - 2026 Reviews",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "### Sony WH-CH720N Headphones – Lightweight Premium Performance\nSony’s WH-CH720N combines their legendary noise cancellation technology with an incred..."
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://voyagerinfo.com/15-best-noise-cancelling-travel-headphones-for-2026/",
+       "title": "15 Best Noise Cancelling Travel Headphones for 2026 - Voyager Info",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "Sony WH-CH720N Wireless Noise Cancelling Over-Ear Headphones, Black Sony WH-CH720N Wireless Noise Cancelling Over-Ear Headphones, Black Best Lightweig..."
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://recordingnow.com/blog/best-budget-wireless-headphones/",
+       "title": "Best Noise Cancelling Headphones under $200 (50+ Tested!)",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "## Best Noise Cancelling Performance: Sony ULT Wear\nOne headphone that stands out for its noise cancelling is the Sony ULT Wear, which I actually thin..."
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 10476,
+  "completion_tokens": 676,
+  "total_tokens": 11152,
+  "cost": 0.023856,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.023856,
+   "upstream_inference_prompt_cost": 0.010476,
+   "upstream_inference_completions_cost": 0.00338
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  },
+  "server_tool_use_details": {
+   "web_search_requests": 1
+  }
+ }
+}

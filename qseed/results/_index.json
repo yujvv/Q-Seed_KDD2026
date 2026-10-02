@@ -1,0 +1,58 @@
+{
+  "verticals": [
+    "consumer_electronics",
+    "personal_finance",
+    "health_wellness"
+  ],
+  "config": {
+    "B": 50,
+    "candidatesPerB": 20,
+    "keywordsPerVertical": 240,
+    "holdoutFrac": 0.2,
+    "tau": 0.62,
+    "lambda": 0.35,
+    "probeRepeats": 3,
+    "Q0factor": 2,
+    "refBankSize": 60,
+    "refBankRepeats": 2,
+    "facets": [
+      "comparison",
+      "how-to / tutorial",
+      "troubleshooting",
+      "recommendation / best-of",
+      "fact / definition"
+    ],
+    "personas": [
+      "a novice first-time buyer",
+      "a domain expert",
+      "a budget-conscious shopper",
+      "a time-pressured professional"
+    ],
+    "scenarios": [
+      "an urgent problem",
+      "long-term research",
+      "comparing options before buying",
+      "a repeat/return decision"
+    ],
+    "funnels": [
+      "awareness",
+      "consideration",
+      "decision"
+    ],
+    "seed": 20260706
+  },
+  "engines": [
+    {
+      "id": "sonar",
+      "model": "perplexity/sonar"
+    },
+    {
+      "id": "gpt4o-online",
+      "model": "openai/gpt-4o-mini:online"
+    }
+  ],
+  "apiStats": {
+    "liveCalls": 0,
+    "cost": 0
+  }
+}

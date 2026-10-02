@@ -1,0 +1,370 @@
+{
+ "A": {
+  "A001": "Naive Paraphrase",
+  "A002": "Forward Fan-out",
+  "A003": "Forward Fan-out",
+  "A004": "Q-SEED",
+  "A005": "Forward Fan-out",
+  "A006": "Naive Paraphrase",
+  "A007": "Naive Paraphrase",
+  "A008": "Q-SEED",
+  "A009": "Q-SEED",
+  "A010": "Forward Fan-out",
+  "A011": "Q-SEED",
+  "A012": "real",
+  "A013": "real",
+  "A014": "Q-SEED",
+  "A015": "real",
+  "A016": "Forward Fan-out",
+  "A017": "real",
+  "A018": "real",
+  "A019": "real",
+  "A020": "Forward Fan-out",
+  "A021": "Naive Paraphrase",
+  "A022": "Q-SEED",
+  "A023": "Q-SEED",
+  "A024": "real",
+  "A025": "Q-SEED",
+  "A026": "Forward Fan-out",
+  "A027": "Naive Paraphrase",
+  "A028": "real",
+  "A029": "Forward Fan-out",
+  "A030": "Q-SEED",
+  "A031": "Naive Paraphrase",
+  "A032": "Q-SEED",
+  "A033": "Naive Paraphrase",
+  "A034": "Q-SEED",
+  "A035": "Forward Fan-out",
+  "A036": "real",
+  "A037": "real",
+  "A038": "Naive Paraphrase",
+  "A039": "real",
+  "A040": "real",
+  "A041": "real",
+  "A042": "Q-SEED",
+  "A043": "Naive Paraphrase",
+  "A044": "real",
+  "A045": "Q-SEED",
+  "A046": "Naive Paraphrase",
+  "A047": "real",
+  "A048": "Forward Fan-out",
+  "A049": "Naive Paraphrase",
+  "A050": "Q-SEED",
+  "A051": "Q-SEED",
+  "A052": "Q-SEED",
+  "A053": "Q-SEED",
+  "A054": "Forward Fan-out",
+  "A055": "real",
+  "A056": "Forward Fan-out",
+  "A057": "Q-SEED",
+  "A058": "real",
+  "A059": "Q-SEED",
+  "A060": "real",
+  "A061": "real",
+  "A062": "Q-SEED",
+  "A063": "real",
+  "A064": "Q-SEED",
+  "A065": "Naive Paraphrase",
+  "A066": "real",
+  "A067": "real",
+  "A068": "real",
+  "A069": "real",
+  "A070": "Q-SEED",
+  "A071": "Naive Paraphrase",
+  "A072": "Q-SEED",
+  "A073": "Naive Paraphrase",
+  "A074": "Q-SEED",
+  "A075": "Q-SEED",
+  "A076": "Naive Paraphrase",
+  "A077": "Q-SEED",
+  "A078": "real",
+  "A079": "Forward Fan-out",
+  "A080": "Forward Fan-out",
+  "A081": "Q-SEED",
+  "A082": "Naive Paraphrase",
+  "A083": "Naive Paraphrase",
+  "A084": "Forward Fan-out",
+  "A085": "real",
+  "A086": "real",
+  "A087": "Q-SEED",
+  "A088": "Q-SEED",
+  "A089": "Q-SEED",
+  "A090": "Forward Fan-out",
+  "A091": "Q-SEED",
+  "A092": "Q-SEED",
+  "A093": "Forward Fan-out",
+  "A094": "real",
+  "A095": "real",
+  "A096": "Q-SEED",
+  "A097": "Q-SEED",
+  "A098": "real",
+  "A099": "Naive Paraphrase",
+  "A100": "real",
+  "A101": "Naive Paraphrase",
+  "A102": "real",
+  "A103": "real",
+  "A104": "Forward Fan-out",
+  "A105": "Q-SEED",
+  "A106": "Forward Fan-out",
+  "A107": "Q-SEED",
+  "A108": "real",
+  "A109": "Q-SEED",
+  "A110": "real",
+  "A111": "real",
+  "A112": "Naive Paraphrase",
+  "A113": "Forward Fan-out",
+  "A114": "real",
+  "A115": "real",
+  "A116": "Q-SEED",
+  "A117": "Q-SEED",
+  "A118": "Forward Fan-out",
+  "A119": "Q-SEED",
+  "A120": "Naive Paraphrase",
+  "A121": "Q-SEED",
+  "A122": "Q-SEED",
+  "A123": "real",
+  "A124": "real"
+ },
+ "B": {
+  "B001": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B002": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "B"
+  },
+  "B003": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B004": {
+   "baseline": "PAA-Template",
+   "qseedSide": "B"
+  },
+  "B005": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B006": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "B"
+  },
+  "B007": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B008": {
+   "baseline": "PAA-Template",
+   "qseedSide": "B"
+  },
+  "B009": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B010": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "B"
+  },
+  "B011": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B012": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "B"
+  },
+  "B013": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "B"
+  },
+  "B014": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "B"
+  },
+  "B015": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "A"
+  },
+  "B016": {
+   "baseline": "PAA-Template",
+   "qseedSide": "A"
+  },
+  "B017": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "A"
+  },
+  "B018": {
+   "baseline": "PAA-Template",
+   "qseedSide": "B"
+  },
+  "B019": {
+   "baseline": "PAA-Template",
+   "qseedSide": "A"
+  },
+  "B020": {
+   "baseline": "PAA-Template",
+   "qseedSide": "B"
+  },
+  "B021": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B022": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "B"
+  },
+  "B023": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B024": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B025": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B026": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "A"
+  },
+  "B027": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "A"
+  },
+  "B028": {
+   "baseline": "PAA-Template",
+   "qseedSide": "A"
+  },
+  "B029": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "B"
+  },
+  "B030": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B031": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "A"
+  },
+  "B032": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "A"
+  },
+  "B033": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "A"
+  },
+  "B034": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B035": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "B"
+  },
+  "B036": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "A"
+  },
+  "B037": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B038": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "A"
+  },
+  "B039": {
+   "baseline": "PAA-Template",
+   "qseedSide": "A"
+  },
+  "B040": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B041": {
+   "baseline": "PAA-Template",
+   "qseedSide": "B"
+  },
+  "B042": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "B"
+  },
+  "B043": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B044": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B045": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "A"
+  },
+  "B046": {
+   "baseline": "PAA-Template",
+   "qseedSide": "A"
+  },
+  "B047": {
+   "baseline": "PAA-Template",
+   "qseedSide": "B"
+  },
+  "B048": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "A"
+  },
+  "B049": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B050": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "B"
+  },
+  "B051": {
+   "baseline": "PAA-Template",
+   "qseedSide": "A"
+  },
+  "B052": {
+   "baseline": "PAA-Template",
+   "qseedSide": "B"
+  },
+  "B053": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B054": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "A"
+  },
+  "B055": {
+   "baseline": "Naive Paraphrase",
+   "qseedSide": "B"
+  },
+  "B056": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B057": {
+   "baseline": "PAA-Template",
+   "qseedSide": "B"
+  },
+  "B058": {
+   "baseline": "GEO-bench-like",
+   "qseedSide": "B"
+  },
+  "B059": {
+   "baseline": "Forward Fan-out",
+   "qseedSide": "B"
+  },
+  "B060": {
+   "baseline": "PAA-Template",
+   "qseedSide": "A"
+  }
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "consumer_electronics": {
+  "retest11wk": {
+   "sonar": {
+    "spearman": 0.6253010550465972,
+    "kendall": 0.49913728263455204,
+    "perQueryJaccard": 0.24895085116875748
+   },
+   "gpt4o-online": {
+    "spearman": 0.6947008096333077,
+    "kendall": 0.574844985407511,
+    "perQueryJaccard": 0.3213181818181818
+   },
+   "pooled": {
+    "spearman": 0.6968956825098921,
+    "kendall": 0.5666204216295291
+   }
+  },
+  "crossEngineNow": 0.46598807148343796,
+  "humanCriterion": {
+   "n": 17,
+   "examples": [
+    "what is the best laptop to use for gaming",
+    "why mechanical keyboards are better",
+    "is garmin a smartwatch",
+    "number of robotic  vacuum cleaners sold",
+    "are air fryers healthier",
+    "what is the oled tv?"
+   ],
+   "convergent": 0.6132279924707573,
+   "perEngine": {
+    "sonar": 0.6193393954899631,
+    "gpt4o-online": 0.46031872126327456
+   },
+   "splitHalfHuman": 0.7145293812039764,
+   "splitHalfBank": 0.7240435001037693,
+   "disattenuated": 0.8525691148628977
+  }
+ },
+ "personal_finance": {
+  "retest11wk": {
+   "sonar": {
+    "spearman": 0.5477596555550666,
+    "kendall": 0.42307292649236483,
+    "perQueryJaccard": 0.27262577224412443
+   },
+   "gpt4o-online": {
+    "spearman": 0.5689793422572378,
+    "kendall": 0.4779339157406811,
+    "perQueryJaccard": 0.263598124098124
+   },
+   "pooled": {
+    "spearman": 0.6078530919057654,
+    "kendall": 0.4700109486548684
+   }
+  },
+  "crossEngineNow": 0.5420588612294207,
+  "humanCriterion": {
+   "n": 21,
+   "examples": [
+    "how much is a best buy credit card",
+    "can you have a 401k and a roth ira",
+    "what is an index fund vs mutual fund",
+    "how soon to refinance mortgage",
+    "what are requirements for debt consolidation",
+    "can i deduct tax preparation software"
+   ],
+   "convergent": 0.6496426236186637,
+   "perEngine": {
+    "sonar": 0.5944661113933646,
+    "gpt4o-online": 0.38041815238912946
+   },
+   "splitHalfHuman": 0.8060719341485689,
+   "splitHalfBank": 0.5967727502160012,
+   "disattenuated": 0.9366624701840471
+  }
+ },
+ "health_wellness": {
+  "retest11wk": {
+   "sonar": {
+    "spearman": 0.5288001501679725,
+    "kendall": 0.4300755218011648,
+    "perQueryJaccard": 0.25384375805525033
+   },
+   "gpt4o-online": {
+    "spearman": 0.6199924118602574,
+    "kendall": 0.5235366971916674,
+    "perQueryJaccard": 0.2647907647907648
+   },
+   "pooled": {
+    "spearman": 0.5964990028212789,
+    "kendall": 0.4751710678864828
+   }
+  },
+  "crossEngineNow": 0.49705143632085885,
+  "humanCriterion": {
+   "n": 29,
+   "examples": [
+    "weight loss liquid diet",
+    "how often to intermittent fasting",
+    "what is the best protein powder for smoothies",
+    "why should you take vitamin supplements",
+    "is it better to workout before or after you sleep",
+    "what can lower blood pressure"
+   ],
+   "convergent": 0.4285044390976881,
+   "perEngine": {
+    "sonar": 0.41433104891695133,
+    "gpt4o-online": 0.48904026675703427
+   },
+   "splitHalfHuman": 0.7680610782532401,
+   "splitHalfBank": 0.30744419377582227,
+   "disattenuated": 0.8818085364146023
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "gen-1790856818-qy21LcOA9kRKamd0BEpU",
+ "object": "chat.completion",
+ "created": 1790856818,
+ "model": "openai/gpt-5-mini",
+ "provider": "OpenAI",
+ "system_fingerprint": null,
+ "service_tier": "default",
+ "choices": [
+  {
+   "index": 0,
+   "logprobs": null,
+   "finish_reason": "length",
+   "native_finish_reason": "max_output_tokens",
+   "message": {
+    "role": "assistant",
+    "content": null,
+    "refusal": null,
+    "reasoning": "**Exploring headphone options**\n\nI’m thinking about potential newer models like the XM6 from Sony expected by October 2026. The XM5 was released in 2022 at around $349, which is above the user’s budget of $300. There could be sales or discounts, so I need to verify current prices using a web search. Notably, the Bose QuietComfort 45 is a popular choice under $300 for comfort and active noise cancellation, while the Sennheiser Momentum 4 is also a strong contender.**Considering more headphone options**\n\nI’m also thinking about the JBL Tour One and Cambridge Audio options. The Apple AirPods Max usually exceed $300 unless I find a used pair. The newer Bose QuietComfort Ultra is over that budget as well. It seems I need to search for these models to get up-to-date pricing and available options. There might be some hidden gems, so it’s worth looking into!",
+    "reasoning_details": [
+     {
+      "type": "reasoning.summary",
+      "summary": "**Exploring headphone options**\n\nI’m thinking about potential newer models like the XM6 from Sony expected by October 2026. The XM5 was released in 2022 at around $349, which is above the user’s budget of $300. There could be sales or discounts, so I need to verify current prices using a web search. Notably, the Bose QuietComfort 45 is a popular choice under $300 for comfort and active noise cancellation, while the Sennheiser Momentum 4 is also a strong contender.**Considering more headphone options**\n\nI’m also thinking about the JBL Tour One and Cambridge Audio options. The Apple AirPods Max usually exceed $300 unless I find a used pair. The newer Bose QuietComfort Ultra is over that budget as well. It seems I need to search for these models to get up-to-date pricing and available options. There might be some hidden gems, so it’s worth looking into!",
+      "format": "openai-responses-v1",
+      "index": 0
+     },
+     {
+      "type": "reasoning.encrypted",
+      "data": "gAAAAABqvk53tBogbZUTIn2nf6-BAwwoDwdOLcwAPd02SbjUnzc0_oar8Bn9h0SfCyabLMdRApcWqM6wjtobPiGlap8Ywx_7HgwCdZO3LCTtL8rlmb7hlmOgSTeA2cQtgm3uBGwqB-fTfK44VcyPnX1mKRe_udFwkINH5GnjW_krRw2xLnr5q6qwfhB0MVd70NpczTQAPxPJ3beQdIdI_jTpgsDdmIBWDwL_uJS9UQRWreThZAmekICkdapa6PDW0qYbbOj7BpR-YVnQ1xthqIRxCLgGOknGDcCK3p145xM2mMVqAcME9oUr8WAqqtmrF5KV-5tYl80E0KEmveu3L0_I60O6uMgRvPBX1fLYVGYt9R96D473Gh4McT6m0kpN7bKXgNDcHoJx5M0Udf1aRSdqr7Di6OoV_7mMN3KWwLV8WSbTNmViTC9Y_KWLkEqo3Rn0yAZO8CeXj9x-LJy7LWKr04iX6Ca-RLb4616JN64hEaLmdE0PL5NLBuZU_SAEQSuf3kf9AA6hl_VhNKnx4c3Zgtyv7CpiBNZiWvsu2VfzJ_ZB6d1aLVo--_b1iSNLCWI_j0mPApPRYNYfAqnaML6UWpvd7nxbSLEtD9CBra2ISk4uNVESXprhHE2HvTRAIQAm5JZc072qDOhJ2sEDGpZXZX2EMtWGTO_wRLqS797--oQdgpjNjOwp15OFP6AjGn2f2K0NERMAvRz_Je8-xoJc2ddsSsCb6hT-xJq5e7ovkj0zpypV7RyL4_UJaY0aJOMeuS2C2VvGwLS26_WftiYFQ-m8hRKEg6gCmHqsWpMfCBdTVJpBTRd_dcOsHGs8X0kjMXrNGR-TAdL8oevzWXZ_IhI4gi5esDsMYNR3YE8WusbynfpALBiucfEfuUc_SblHrJmm5nO22fObklo72rMFfyOW3FSqqKVeZiQlKYDR8aKpS6Po_QnBnnxoVyHaiJEWVrZfRkxJ4-hVCNyd46B2UA5wmWVwMpsGjk00sEj_LbSIHD6i_AKgVTdCSIAdszDcT7-J2JMFZK1Vl8eB8GyonvJvTwkrqHZL1yuTjwCMHc50dHXgYiokA2ucIkO84F9gwueEowaxGGRAkJ0Gobm1grlpVGzFrPzHAr-pxrOL4kDlXh8GBqnLGi7Dn_S2ylGWtFGuC41bZMuiHeLOq4Xt6g2rrK-86g5keLY-91HBnEwt0sPCL5EuTS7-5qMUMVo-eBewY_SqBqJfU14NX2MpqaYskqFhtMU_qqEB0S7JspNwoj-X3peoGgv9_YPm671B8ygbCguYNkqixjGXOmYASabxT32xr-3gpRSHC7AJdo59sKlnakqOcRxkAJomyENZlrIFUG9X2D6SVEpfWXZPbLMJu8OirIjYoa-vB7DScfCBjSLF7ImhIaK3TkhGpKK50yIQwxcOEJHX-nO-SaEaB5iybkJLXgcsl9SgZV81I8HEg_F2gTa8OU4LORfs8BHzrTYXd6gSV3bRrkig6OxtCMm2MStraxl21EJ6GlOFgrwFJDnjbb7OB02utt2xoomerhx8O87taIdmyXSlIAYfWGBMv5-CCy7l_dP_KvbV4f6TgA1CKMWDAph5mDQ6sTpa8HFJm5sBTjx_chJyaiC6xr32HRYRos19ZRgMfP5kdp_DO4lreH15A04MW8yQA_nGeokejxf3Efe_S68yXZeyrwJ2aGjL_qTp6k4zHWFBrcSKtOwf3Uib_RwsgcNRTGHej6JcuJE5NGrelKC3LiEmnWE8s_HSM851txm4lnHgyX-TaR2y0HWDFETrdzpfOTxPH-rFRyuTe4-fPUuPz4hKZh35NK03m0YIU4Fwxdt3I4wRsC-tvDxuvCXYNCWFP3LcQR92MjwOFJClj64B7yDR2cyEjbx_5ScHNZFLI9V2u56PWjy_ccg9EKGO_3K3Vk8sMYXqsIm93CCL5MJeTf5w-3QrBFFFLASDvGGYyRivX0-reqwHWFmZTHvtyT7PNVj6d5uwsoneg_oiMljpYPI8NCLqrbg1gixTwZjN0NTedVQsgz5SGD4-s-OS70pA65ZdUkcpxyjmjnxFxRfPhc-3Joc2LB1-pj5sL0NXe5vH3NwAkpJAOAfywjLJP2iY4XlDmo2Ti1TOy_sk_fKcnWOAAvzWAu-DRY4HTN317Hiu7t0fI0rQm7owgKHWjnlXKSh61LymWQ7eJivm-Ti74SmLayMSWlx2-t4U6WUn75zY3837_oFOOR3Z_MJ9LB620MO1PuFOSWxhoHfq_X34EfK23mfaCVVT6RsXFOfLce-xzZRpR30gFY5obDlWDqyG4P-hgAwwz-4LcAyJZNHxkMcN68rKMfVzd3X-Gyt6N6ZqH845X3VlWoO0VTGbfOtCccBmmlnjmPLT3pBnxMkbjgFcBWXyyztfDwdrPRzN9SpcXrZbEAcL5vXgv_wticiJbPHwWU5YhEQvhgAQf6DZ7qkUkCBPD3vnFhCvz9_bcTZB0vJBK2F3jiHauiXq0txvGa8ylYCci6BIaf1Wk7SguDcmWE-46uk87XWyNwrSG3NmYC7DziX-CwKHKD14VYVioCIyBlm_oILVTSyiA52_e9UmfzHFhD0gJ7WZKVFtOswhnbA5LCIxWrCz0xT2zY5km0E2EVIhKMBLd2PAYRPl_NWMVhzLkW5rHaI7aNz8ik9gbfqX1p7ks1zBu92olwvsouiFuIXKjYsXty4EzGLVT8HwL0lMB3ZfJN1YLpB49wZf7Uf3dbf6HGqpEa2D-2YSXXZmjkoBOgCtQPcb7z_g--0CdskRCVwF7YKWP5JhXZvto5Yl9pKEiPKCtwt1FwgYhzb4nJWzWPRzIx7-E3RtKZNMBFYQWfqRfl2Bgddm0pgTgMbnWFwCJ21eX5KBifsbnslk6KGWa-cB1j5nJQc7ig4pAWGDs-ZkqagC0NujRX6Fy5MX515YVPorbPpvHvHnVcJ92M1ZsjzOij2rqdGP5q0O7lSSTFJrswJy6kBO2mKK3yLcp1wBDx-6MmpRsCvrWtSpS05NOWalPKLr5t8ZO83r4wtc1qa42lOZyKWt2pdmETH2t7vIndzZC80ufKeTwHJqIlRLC5tTo_5fFRzpSfvsnGf0IGfTaxT7eh-zplmwIQcqPPAZNskZivnPg9L2wZWJlFYeAzS91zYjcJx2Gq4UWo4dW087qy2NDjy1spvf1yPkfxbJf5O87bOPRlUfxaRXuGKW6BDd8zqpljJQKqKg4P_h3nN6F7gu4AyB5FEmNUIN-v2kKgQIolt2Y40dP5y84THl7e65jO1TxSetPyriV-_bFDZLhSqmMfh327wl65umGLYN9-a0nE_zHq76YhbhhNmfFe7XRNwLaTASohbQTFcwP1vi4z06b2KKoHthhh_QBPfwWYEuuQaqQVvXze8zqut8Cna9Hve5dTjc36URzmDMDQffcq7qKuVLm2mzhi1t4pQ27g1Xw-gSyjTdLB8o6xYi9DbfbYWbvMhLr0Yp7OVvT90QkV3d98DnvRM2PMw1y7CeQl52aFoh6c75_jiK5yTd2VOV61AqMFwOEUVaPewHKHAzQN3p1N2mZ-_K_DG3ltcGbUzFJ4dqJGjklO0vyHuPeZ9PGLrgHdgZ3mTJbAdqKaTEZC_c3c5613AAECFp5-gFQzYHyzOkHoaTVvJN534cQqU83p7HkhcAjH6EFcXtBkspnIsVlav4lY1owm-KC55NwuX6s2xYsYQ4mta3umBn1B1R1xiuRCrYjlEqxd0-oDANPtpw03eWFcpd3Cj_K4-mPXqKH62dEbw0GZCDvoRbn5KAeB-J0B237N8ilqZmTi7k_yDtif6sdhSmXiG7tIX7iFhjfBfpoWWzJVwOI0Qmahy0b5a0xIihGC-mPlZN2ujyIt4szSVYgOYUna8oOps6ejw7A0WXJ6gJ1ZE2mAwMngqDBnkcur37c13mnq_8pWX9Z0DriYsM7Cvl3soAPDDLqY4guVpTBk_ZAJLzd-4PVdNMj3yGImETtp05iettOLsdR9rPd2ZbdmWB8_Stv-EBnwp-zWit6giMUvQvczUGinQ70-YSiDsY7_bOhxjmTH_3yBHwSGckCMoY2zhANwWIZ7pNlW8dkED_7zjutI-a91O4l6IZ_7P7nIu2ceHmoJ56NmuSq_5T_uB7JU6IEM2oreluTQ4uG-ZCROBgw3OtE7G02F0-jvx3aYFDvuG7t8qY7a7a0-4r303F7PIF_F_lkbF33Fwq5emmBFrvA9bKMYwFF9dsA6ErB9k5Fq_hLPAW3XFMCOwigjFBEwgLznnM4uU=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC01LW1pbmktMjAyNS0wOC0wN3xvcGVuYWkifQ",
+      "format": "openai-responses-v1",
+      "id": "rs_04183b65c356a3e2016abe4e73301487d1bf32c0de545d6ee1",
+      "index": 1
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 4456,
+  "completion_tokens": 576,
+  "total_tokens": 5032,
+  "cost": 0.0014596,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 3584,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014596,
+   "upstream_inference_prompt_cost": 0.0003076,
+   "upstream_inference_completions_cost": 0.001152
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 576,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "res": {
+  "default": {
+   "jaccardWithCachedRun": 0.4303571428571428,
+   "meanCost": 0.007636850000000001,
+   "domainsPerAnswer": 4.833333333333333
+  },
+  "exa": {
+   "jaccardWithCachedRun": 0.416468253968254,
+   "meanCost": 0.007650850000000001,
+   "domainsPerAnswer": 4.666666666666667
+  },
+  "native": {
+   "jaccardWithCachedRun": 0,
+   "meanCost": 0,
+   "domainsPerAnswer": 0
+  }
+ },
+ "total": 0.11185450000000001
+}

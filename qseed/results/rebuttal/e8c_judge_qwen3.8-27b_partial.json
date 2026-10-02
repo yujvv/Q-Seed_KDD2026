@@ -1,0 +1,47 @@
+{
+ "note": "free-tier judge qwen/qwen3.8-27b:free; absolute scores, consumer_electronics only (run stopped by rate limits); 16 shuffled source-mixed batches of 25, 1 batch failed",
+ "consumer_electronics": {
+  "abs": {
+   "Q-SEED w/o S4": {
+    "n": 46,
+    "meanScore": 50.76086956521739,
+    "auc": 0.7715078630897317
+   },
+   "GEO-bench-like": {
+    "n": 47,
+    "meanScore": 48.4468085106383,
+    "auc": 0.8352195563603441
+   },
+   "Q-SEED": {
+    "n": 44,
+    "meanScore": 49.15909090909091,
+    "auc": 0.7664410058027079
+   },
+   "real": {
+    "n": 47,
+    "meanScore": 77.29787234042553,
+    "auc": null
+   },
+   "Naive Paraphrase": {
+    "n": 50,
+    "meanScore": 63.98,
+    "auc": 0.7170212765957447
+   },
+   "Forward Fan-out": {
+    "n": 49,
+    "meanScore": 52.3469387755102,
+    "auc": 0.8145896656534954
+   },
+   "KW-as-Query": {
+    "n": 46,
+    "meanScore": 83.80434782608695,
+    "auc": 0.3598519888991674
+   },
+   "PAA-Template": {
+    "n": 46,
+    "meanScore": 57.28260869565217,
+    "auc": 0.7303422756706753
+   }
+  }
+ }
+}

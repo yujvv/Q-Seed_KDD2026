@@ -1,0 +1,62 @@
+{
+ "consumer_electronics": {
+  "highVsLowRealism": 0.6626801721265914,
+  "randomSplit": {
+   "mean": 0.6332795179182822,
+   "lo": 0.498262416067493,
+   "hi": 0.7515551207625436
+  },
+  "percentileOfObserved": 0.66,
+  "meanR": {
+   "high": 0.4154338209726564,
+   "low": 0.1290993215730366
+  },
+  "splitByWordCount": 0.6437533821135458,
+  "splitByFirstPerson": 0.5487063028057008,
+  "rhoRealismVsDomainsCited": 0.08550804145304629,
+  "refSplitHalfSB": 0.8748584972859436,
+  "bankSplitHalfSB_200splits": 0.6672572593463143,
+  "convergent": 0.8172340165435296,
+  "convergentDisattenuated": 1.0696233487553237
+ },
+ "personal_finance": {
+  "highVsLowRealism": 0.5142459317373641,
+  "randomSplit": {
+   "mean": 0.5435221325956459,
+   "lo": 0.41371825764377446,
+   "hi": 0.6695288031575183
+  },
+  "percentileOfObserved": 0.3365,
+  "meanR": {
+   "high": 0.43536039290340595,
+   "low": 0.12494807887316554
+  },
+  "splitByWordCount": 0.6317358450689731,
+  "splitByFirstPerson": 0.48931051585693175,
+  "rhoRealismVsDomainsCited": -0.1516344312206284,
+  "refSplitHalfSB": 0.8966145596853501,
+  "bankSplitHalfSB_200splits": 0.6557811331556691,
+  "convergent": 0.6935681531987304,
+  "convergentDisattenuated": 0.9044962922396657
+ },
+ "health_wellness": {
+  "highVsLowRealism": 0.5767882040580506,
+  "randomSplit": {
+   "mean": 0.5131444643118429,
+   "lo": 0.343256976065525,
+   "hi": 0.6599804794733735
+  },
+  "percentileOfObserved": 0.784,
+  "meanR": {
+   "high": 0.4485984238869674,
+   "low": 0.1375928869365313
+  },
+  "splitByWordCount": 0.4158320806434881,
+  "splitByFirstPerson": 0.45133704735376046,
+  "rhoRealismVsDomainsCited": 0.010055707822336645,
+  "refSplitHalfSB": 0.8400964168269219,
+  "bankSplitHalfSB_200splits": 0.5198250007096105,
+  "convergent": 0.54277241454013,
+  "convergentDisattenuated": 0.8213431125833642
+ }
+}

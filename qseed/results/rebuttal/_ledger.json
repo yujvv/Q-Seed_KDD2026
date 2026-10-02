@@ -1,0 +1,70 @@
+{
+ "cost": 8.371281957999997,
+ "calls": 13430,
+ "byTag": {
+  "engine_check": {
+   "cost": 0.1518,
+   "calls": 27
+  },
+  "free:qwen/qwen3.8-27b:free": {
+   "cost": 0,
+   "calls": 2
+  },
+  "free:nvidia/nemotron-3-super-120b-a12b:free": {
+   "cost": 0,
+   "calls": 2
+  },
+  "free:nvidia/nemotron-3-embed-1b:free": {
+   "cost": 0,
+   "calls": 217
+  },
+  "free:liquid/lfm-2.5-embedding-350m:free": {
+   "cost": 0,
+   "calls": 197
+  },
+  "free:nvidia/nemotron-3.5-lightning:free": {
+   "cost": 0,
+   "calls": 1
+  },
+  "realbank_build": {
+   "cost": 0.057294680000000126,
+   "calls": 1530
+  },
+  "A_now": {
+   "cost": 1.9818792499999995,
+   "calls": 300
+  },
+  "A2_openai_native": {
+   "cost": 1.0461251999999999,
+   "calls": 120
+  },
+  "A2_anthropic_native": {
+   "cost": 1.227605,
+   "calls": 60
+  },
+  "A2_exa_gemini": {
+   "cost": 0.44843229999999995,
+   "calls": 60
+  },
+  "B_realbank": {
+   "cost": 1.9782898500000001,
+   "calls": 300
+  },
+  "fanout_alt": {
+   "cost": 0.2881863580000001,
+   "calls": 6460
+  },
+  "fanout_alt_embed": {
+   "cost": 0.0031054199999999976,
+   "calls": 256
+  },
+  "judge": {
+   "cost": 0.32348369999999993,
+   "calls": 3764
+  },
+  "C_human": {
+   "cost": 0.8650802000000001,
+   "calls": 134
+  }
+ }
+}

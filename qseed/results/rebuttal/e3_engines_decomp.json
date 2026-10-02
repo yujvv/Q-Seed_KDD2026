@@ -1,0 +1,234 @@
+{
+ "consumer_electronics": {
+  "retestPerEngine": {
+   "sonar": 0.9812042303324826,
+   "gpt4o-online": 0.9645327069064354
+  },
+  "crossEngine": {
+   "round1": 0.17724037476613505,
+   "round2": 0.1337859563450852,
+   "acrossRounds": 0.1548939488514625
+  },
+  "disattenuated": 0.15921950386732503,
+  "crossEngineQ0": 0.23678984612706416,
+  "perQueryJaccard": {
+   "withinA": 0.876287715725961,
+   "withinB": 0.839213203463203,
+   "across": 0.12494388971246206
+  },
+  "support": {
+   "nA": 524,
+   "nB": 305,
+   "shared": 131,
+   "jaccard": 0.1876790830945559,
+   "massOfAOnShared": 0.5942945474985947,
+   "massOfBOnShared": 0.6631430584918957,
+   "rhoOnShared": 0.600099451741297
+  },
+  "universe": {
+   "D": 60,
+   "citedA": 59,
+   "citedB": 46,
+   "both": 45,
+   "rhoBoth": 0.3686165153529908
+  },
+  "domainsPerAnswer": {
+   "sonar": {
+    "mean": 11.86,
+    "max": 15,
+    "emptyFrac": 0,
+    "hist": {
+     "5": 1,
+     "6": 8,
+     "7": 9,
+     "8": 25,
+     "9": 40,
+     "10": 80,
+     "11": 93,
+     "12": 78,
+     "13": 100,
+     "14": 109,
+     "15": 57
+    }
+   },
+   "gpt4o-online": {
+    "mean": 4.73,
+    "max": 5,
+    "emptyFrac": 0,
+    "hist": {
+     "1": 2,
+     "2": 8,
+     "3": 12,
+     "4": 106,
+     "5": 472
+    }
+   }
+  },
+  "acrossJaccardByFacet": {
+   "comparison": {
+    "n": 58,
+    "mean": 0.11330035707504481
+   },
+   "recommendation": {
+    "n": 42,
+    "mean": 0.14102305383080052
+   }
+  }
+ },
+ "personal_finance": {
+  "retestPerEngine": {
+   "sonar": 0.9865980956579964,
+   "gpt4o-online": 0.9813680871021717
+  },
+  "crossEngine": {
+   "round1": 0.21194319921711652,
+   "round2": 0.23575354714701868,
+   "acrossRounds": 0.22321327414040648
+  },
+  "disattenuated": 0.22684745738210682,
+  "crossEngineQ0": 0.1539704831330128,
+  "perQueryJaccard": {
+   "withinA": 0.8441824612193265,
+   "withinB": 0.8498928571428566,
+   "across": 0.1369111607826702
+  },
+  "support": {
+   "nA": 603,
+   "nB": 278,
+   "shared": 122,
+   "jaccard": 0.16073781291172595,
+   "massOfAOnShared": 0.4743214475784992,
+   "massOfBOnShared": 0.6797614871974745,
+   "rhoOnShared": 0.5934793406415094
+  },
+  "universe": {
+   "D": 60,
+   "citedA": 59,
+   "citedB": 46,
+   "both": 45,
+   "rhoBoth": 0.38619853550257294
+  },
+  "domainsPerAnswer": {
+   "sonar": {
+    "mean": 12.526666666666667,
+    "max": 15,
+    "emptyFrac": 0,
+    "hist": {
+     "7": 11,
+     "8": 4,
+     "9": 23,
+     "10": 53,
+     "11": 72,
+     "12": 77,
+     "13": 161,
+     "14": 124,
+     "15": 75
+    }
+   },
+   "gpt4o-online": {
+    "mean": 4.751666666666667,
+    "max": 5,
+    "emptyFrac": 0,
+    "hist": {
+     "2": 3,
+     "3": 26,
+     "4": 88,
+     "5": 483
+    }
+   }
+  },
+  "acrossJaccardByFacet": {
+   "comparison": {
+    "n": 51,
+    "mean": 0.14392122609007157
+   },
+   "how-to": {
+    "n": 27,
+    "mean": 0.12260813446398415
+   },
+   "recommendation": {
+    "n": 22,
+    "mean": 0.13821426896117295
+   }
+  }
+ },
+ "health_wellness": {
+  "retestPerEngine": {
+   "sonar": 0.975355501528166,
+   "gpt4o-online": 0.9701712823771083
+  },
+  "crossEngine": {
+   "round1": 0.13307365920379605,
+   "round2": 0.12194646616055156,
+   "acrossRounds": 0.12902237480261547
+  },
+  "disattenuated": 0.13263537046894774,
+  "crossEngineQ0": 0.11452177924553215,
+  "perQueryJaccard": {
+   "withinA": 0.8379671949871265,
+   "withinB": 0.8168015873015869,
+   "across": 0.1255059601153371
+  },
+  "support": {
+   "nA": 739,
+   "nB": 335,
+   "shared": 151,
+   "jaccard": 0.1635969664138678,
+   "massOfAOnShared": 0.48395313295975545,
+   "massOfBOnShared": 0.6679841897233202,
+   "rhoOnShared": 0.4497031286056438
+  },
+  "universe": {
+   "D": 60,
+   "citedA": 60,
+   "citedB": 49,
+   "both": 49,
+   "rhoBoth": 0.19641546633104162
+  },
+  "domainsPerAnswer": {
+   "sonar": {
+    "mean": 13.086666666666666,
+    "max": 15,
+    "emptyFrac": 0,
+    "hist": {
+     "6": 5,
+     "7": 1,
+     "8": 2,
+     "9": 8,
+     "10": 25,
+     "11": 52,
+     "12": 71,
+     "13": 146,
+     "14": 195,
+     "15": 95
+    }
+   },
+   "gpt4o-online": {
+    "mean": 4.638333333333334,
+    "max": 5,
+    "emptyFrac": 0,
+    "hist": {
+     "1": 6,
+     "2": 18,
+     "3": 12,
+     "4": 115,
+     "5": 449
+    }
+   }
+  },
+  "acrossJaccardByFacet": {
+   "recommendation": {
+    "n": 51,
+    "mean": 0.11261456026677906
+   },
+   "how-to": {
+    "n": 34,
+    "mean": 0.1408379159119006
+   },
+   "comparison": {
+    "n": 15,
+    "mean": 0.13458428646155796
+   }
+  }
+ }
+}

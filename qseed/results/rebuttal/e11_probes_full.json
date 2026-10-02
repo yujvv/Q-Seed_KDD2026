@@ -1,0 +1,323 @@
+{
+ "consumer_electronics": {
+  "retest11wk": {
+   "sonar": {
+    "spearman": 0.6253010550465972,
+    "kendall": 0.49913728263455204,
+    "perQueryJaccard": 0.24895085116875748
+   },
+   "gpt4o-online": {
+    "spearman": 0.6947008096333077,
+    "kendall": 0.574844985407511,
+    "perQueryJaccard": 0.3213181818181818
+   },
+   "pooled": {
+    "spearman": 0.6968956825098921,
+    "kendall": 0.5666204216295291
+   }
+  },
+  "crossEngineNow": 0.46598807148343796,
+  "moreEngines": {
+   "nQueries": 20,
+   "universe": 73,
+   "pair": {
+    "sonar ~ gpt4o-online": {
+     "rho": 0.397241504318568,
+     "perQueryJaccard": 0.12870804118482135
+    },
+    "sonar ~ exa-gemini": {
+     "rho": 0.33834860761990115,
+     "perQueryJaccard": 0.11731616186531046
+    },
+    "sonar ~ openai-native": {
+     "rho": -0.2790445091612284,
+     "perQueryJaccard": 0.055799685322174074
+    },
+    "sonar ~ anthropic-native": {
+     "rho": 0.22757796929367713,
+     "perQueryJaccard": 0.06259203490008444
+    },
+    "gpt4o-online ~ exa-gemini": {
+     "rho": 0.8604211399766979,
+     "perQueryJaccard": 0.7636904761904761
+    },
+    "gpt4o-online ~ openai-native": {
+     "rho": 0.008636678338671443,
+     "perQueryJaccard": 0.04680668596109773
+    },
+    "gpt4o-online ~ anthropic-native": {
+     "rho": 0.11366232634835469,
+     "perQueryJaccard": 0.0626984126984127
+    },
+    "exa-gemini ~ openai-native": {
+     "rho": 0.040987455636550485,
+     "perQueryJaccard": 0.0364358068402186
+    },
+    "exa-gemini ~ anthropic-native": {
+     "rho": 0.07232159910348146,
+     "perQueryJaccard": 0.05095238095238095
+    },
+    "openai-native ~ anthropic-native": {
+     "rho": 0.01794171713251119,
+     "perQueryJaccard": 0.032384276958172996
+    }
+   },
+   "withinOpenAINativeJaccard": 0.6004553925606558,
+   "domainsPerAnswer": {
+    "sonar": 16.4,
+    "gpt4o-online": 4.75,
+    "exa-gemini": 4.65,
+    "openai-native": 6.675,
+    "anthropic-native": 3.55
+   },
+   "failed": {
+    "sonar": 0,
+    "gpt4o-online": 0,
+    "exa-gemini": 0,
+    "openai-native": 0,
+    "anthropic-native": 0
+   }
+  },
+  "realBank": {
+   "universe": 60,
+   "splitHalfSB": 0.7364358725363798,
+   "splitHalfSB_syntheticNow": 0.7240435001037693,
+   "crossEngine": 0.4392169384339627,
+   "agreementWithSyntheticBank": {
+    "pooled": 0.5924965069824354,
+    "sonar": 0.66242374524677,
+    "exa": 0.5630435934635986
+   },
+   "topDomains": {
+    "sonar": [
+     "nytimes.com:0.64",
+     "pcmag.com:0.60",
+     "cnet.com:0.60",
+     "techradar.com:0.58",
+     "tomsguide.com:0.54"
+    ],
+    "gpt4o-online": [
+     "nytimes.com:0.36",
+     "pcmag.com:0.30",
+     "cnet.com:0.24",
+     "rtings.com:0.24",
+     "wired.com:0.18"
+    ]
+   }
+  }
+ },
+ "personal_finance": {
+  "retest11wk": {
+   "sonar": {
+    "spearman": 0.5477596555550666,
+    "kendall": 0.42307292649236483,
+    "perQueryJaccard": 0.27262577224412443
+   },
+   "gpt4o-online": {
+    "spearman": 0.5689793422572378,
+    "kendall": 0.4779339157406811,
+    "perQueryJaccard": 0.263598124098124
+   },
+   "pooled": {
+    "spearman": 0.6078530919057654,
+    "kendall": 0.4700109486548684
+   }
+  },
+  "crossEngineNow": 0.5420588612294207,
+  "moreEngines": {
+   "nQueries": 20,
+   "universe": 60,
+   "pair": {
+    "sonar ~ gpt4o-online": {
+     "rho": 0.309967413150516,
+     "perQueryJaccard": 0.14689070905015178
+    },
+    "sonar ~ exa-gemini": {
+     "rho": 0.2604653773735109,
+     "perQueryJaccard": 0.14810652432362956
+    },
+    "sonar ~ openai-native": {
+     "rho": 0.04927021222904783,
+     "perQueryJaccard": 0.028784937888198758
+    },
+    "sonar ~ anthropic-native": {
+     "rho": 0.3406501525431774,
+     "perQueryJaccard": 0.08916752665978672
+    },
+    "gpt4o-online ~ exa-gemini": {
+     "rho": 0.847375717174058,
+     "perQueryJaccard": 0.7595238095238094
+    },
+    "gpt4o-online ~ openai-native": {
+     "rho": -0.06559137263914493,
+     "perQueryJaccard": 0.007142857142857143
+    },
+    "gpt4o-online ~ anthropic-native": {
+     "rho": 0.20944400868694127,
+     "perQueryJaccard": 0.057638888888888885
+    },
+    "exa-gemini ~ openai-native": {
+     "rho": -0.12226635295836563,
+     "perQueryJaccard": 0.007142857142857143
+    },
+    "exa-gemini ~ anthropic-native": {
+     "rho": 0.05718750709217766,
+     "perQueryJaccard": 0.04375
+    },
+    "openai-native ~ anthropic-native": {
+     "rho": 0.2629091264774055,
+     "perQueryJaccard": 0.005681818181818182
+    }
+   },
+   "withinOpenAINativeJaccard": 0.47485119047619045,
+   "domainsPerAnswer": {
+    "sonar": 14.65,
+    "gpt4o-online": 4.85,
+    "exa-gemini": 4.85,
+    "openai-native": 2.175,
+    "anthropic-native": 3.15
+   },
+   "failed": {
+    "sonar": 0,
+    "gpt4o-online": 0,
+    "exa-gemini": 0,
+    "openai-native": 0,
+    "anthropic-native": 0
+   }
+  },
+  "realBank": {
+   "universe": 60,
+   "splitHalfSB": 0.6306997822038782,
+   "splitHalfSB_syntheticNow": 0.5967727502160012,
+   "crossEngine": 0.46125572381574176,
+   "agreementWithSyntheticBank": {
+    "pooled": 0.4040740910091474,
+    "sonar": 0.46558887054061565,
+    "exa": 0.3116988719866369
+   },
+   "topDomains": {
+    "sonar": [
+     "nerdwallet.com:0.62",
+     "forbes.com:0.58",
+     "investopedia.com:0.48",
+     "cnbc.com:0.48",
+     "yahoo.com:0.42"
+    ],
+    "gpt4o-online": [
+     "nerdwallet.com:0.34",
+     "bankrate.com:0.26",
+     "forbes.com:0.18",
+     "investopedia.com:0.18",
+     "fidelity.com:0.18"
+    ]
+   }
+  }
+ },
+ "health_wellness": {
+  "retest11wk": {
+   "sonar": {
+    "spearman": 0.5288001501679725,
+    "kendall": 0.4300755218011648,
+    "perQueryJaccard": 0.25384375805525033
+   },
+   "gpt4o-online": {
+    "spearman": 0.6199924118602574,
+    "kendall": 0.5235366971916674,
+    "perQueryJaccard": 0.2647907647907648
+   },
+   "pooled": {
+    "spearman": 0.5964990028212789,
+    "kendall": 0.4751710678864828
+   }
+  },
+  "crossEngineNow": 0.49705143632085885,
+  "moreEngines": {
+   "nQueries": 20,
+   "universe": 61,
+   "pair": {
+    "sonar ~ gpt4o-online": {
+     "rho": 0.34716892587780207,
+     "perQueryJaccard": 0.10060162696859345
+    },
+    "sonar ~ exa-gemini": {
+     "rho": 0.3121513787665261,
+     "perQueryJaccard": 0.10094554231250878
+    },
+    "sonar ~ openai-native": {
+     "rho": 0.0783042641690308,
+     "perQueryJaccard": 0.01287730551157661
+    },
+    "sonar ~ anthropic-native": {
+     "rho": 0.19745969654449083,
+     "perQueryJaccard": 0.034388062917474684
+    },
+    "gpt4o-online ~ exa-gemini": {
+     "rho": 0.9274648513417802,
+     "perQueryJaccard": 0.7791666666666666
+    },
+    "gpt4o-online ~ openai-native": {
+     "rho": 0.10610652871245152,
+     "perQueryJaccard": 0.02066544566544567
+    },
+    "gpt4o-online ~ anthropic-native": {
+     "rho": 0.06766581501688125,
+     "perQueryJaccard": 0.00625
+    },
+    "exa-gemini ~ openai-native": {
+     "rho": 0.09768286048344357,
+     "perQueryJaccard": 0.025152625152625153
+    },
+    "exa-gemini ~ anthropic-native": {
+     "rho": 0.06336947595726285,
+     "perQueryJaccard": 0.00625
+    },
+    "openai-native ~ anthropic-native": {
+     "rho": 0.05508423311153344,
+     "perQueryJaccard": 0.018910256410256412
+    }
+   },
+   "withinOpenAINativeJaccard": 0.5208513708513709,
+   "domainsPerAnswer": {
+    "sonar": 16.35,
+    "gpt4o-online": 4.8,
+    "exa-gemini": 4.8,
+    "openai-native": 2.25,
+    "anthropic-native": 2.2
+   },
+   "failed": {
+    "sonar": 0,
+    "gpt4o-online": 0,
+    "exa-gemini": 0,
+    "openai-native": 0,
+    "anthropic-native": 0
+   }
+  },
+  "realBank": {
+   "universe": 60,
+   "splitHalfSB": 0.5701049067197406,
+   "splitHalfSB_syntheticNow": 0.30744419377582227,
+   "crossEngine": 0.2776711201678549,
+   "agreementWithSyntheticBank": {
+    "pooled": 0.35920466409605645,
+    "sonar": 0.3002874236244804,
+    "exa": 0.5599801161650974
+   },
+   "topDomains": {
+    "sonar": [
+     "healthline.com:0.76",
+     "nih.gov:0.40",
+     "webmd.com:0.40",
+     "harvard.edu:0.36",
+     "everydayhealth.com:0.36"
+    ],
+    "gpt4o-online": [
+     "nih.gov:0.34",
+     "harvard.edu:0.26",
+     "clevelandclinic.org:0.26",
+     "mayoclinic.org:0.24",
+     "healthline.com:0.10"
+    ]
+   }
+  }
+ }
+}

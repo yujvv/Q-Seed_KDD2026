@@ -1,0 +1,29 @@
+{
+ "consumer_electronics": {
+  "nRef": 60,
+  "wordsRef": 7.5,
+  "wordsBank": 17.22,
+  "meanBestTokenJaccard": 0.2098130892155659,
+  "nearDuplicates": 1,
+  "refKeywordsThatAreHeadTerms": 33,
+  "shareOfBankVolumeInRefKeywords": 0.2975788821987468
+ },
+ "personal_finance": {
+  "nRef": 60,
+  "wordsRef": 9.15,
+  "wordsBank": 18.82,
+  "meanBestTokenJaccard": 0.2175363896210578,
+  "nearDuplicates": 0,
+  "refKeywordsThatAreHeadTerms": 32,
+  "shareOfBankVolumeInRefKeywords": 0.2942023451022689
+ },
+ "health_wellness": {
+  "nRef": 60,
+  "wordsRef": 8.566666666666666,
+  "wordsBank": 16.9,
+  "meanBestTokenJaccard": 0.2260887375438458,
+  "nearDuplicates": 1,
+  "refKeywordsThatAreHeadTerms": 35,
+  "shareOfBankVolumeInRefKeywords": 0.2973381894657502
+ }
+}

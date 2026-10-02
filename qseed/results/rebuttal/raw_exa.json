@@ -1,0 +1,98 @@
+{
+ "id": "gen-1790856732-8GidoNqAWIeOKT8vV8gL",
+ "object": "chat.completion",
+ "created": 1790856732,
+ "model": "openai/gpt-4o-mini",
+ "provider": "OpenAI",
+ "system_fingerprint": "fp_6b7e48f60e",
+ "service_tier": "default",
+ "choices": [
+  {
+   "index": 0,
+   "logprobs": null,
+   "finish_reason": "stop",
+   "native_finish_reason": "stop",
+   "message": {
+    "role": "assistant",
+    "content": "When it comes to budget-friendly streaming devices suitable for outdoor movie nights, there are a few options that stand out based on recent reviews. Here’s a comparison of some of the best value devices:\n\n### 1. **Onn Google TV 4K Pro**\n- **Price**: Approximately $60\n- **Features**:\n  - Streams 4K HDR with Dolby Vision and Dolby Atmos\n  - Hands-free Google Assistant for voice control\n  - Wi-Fi 6 support for faster streaming\n  - Remote finder and Ethernet port for wired connectivity\n- **Value**: This device offers excellent performance for its price, making it a great choice for outdoor settings where you might want to avoid buffering issues. The hands-free voice control can be particularly useful when you're setting up your outdoor movie night and your hands are full.\n\n### 2. **Amazon Fire TV Stick 4K Plus**\n- **Price**: $49.99\n- **Features**:\n  - 4K streaming capability\n  - Wi-Fi 6 for improved connectivity\n  - Speedier Alexa responses\n  - Extensive app library\n- **Value**: The Fire TV Stick 4K Plus is well-regarded for its performance and features. It’s a solid option if you’re already integrated into the Amazon ecosystem, but it may not have the same hands-free features as the Onn.\n\n### 3. **Amazon Fire TV Stick HD (2026)**\n- **Price**: $34.99\n- **Features**:\n  - 1080p streaming\n  - Slimmer design and faster performance\n- **Value**: This is the most budget-friendly option if you don’t need 4K. It’s ideal for non-4K TVs and provides a good streaming experience at a lower price point.\n\n### 4. **Fire TV Stick Lite**\n- **Price**: Approximately $29.99\n- **Features**:\n  - Basic streaming capabilities\n  - Alexa voice remote\n- **Value**: The Fire TV Stick Lite is the most affordable option and is great for those who want a simple, effective device for streaming without the need for 4K or advanced features.\n\n### Recommendation:\nFor outdoor movie nights, the **Onn Google TV 4K Pro** offers the best overall value due to its 4K streaming capabilities, hands-free voice control, and Wi-Fi 6 support, which can help ensure a smooth streaming experience even in outdoor settings. However, if you're looking for something more budget-friendly and don't require 4K, the **Fire TV Stick Lite** is a great economical choice.\n\n### Conclusion:\nUltimately, the best device for you will depend on your specific needs, such as whether you have a 4K TV or prefer a more straightforward setup. Each of these options provides great value within their price ranges.",
+    "refusal": null,
+    "reasoning": null,
+    "annotations": [
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.pcmag.com/picks/the-best-media-streaming-devices",
+       "title": "The Best Media Streaming Devices We've Tested for 2026",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "### Amazon Fire TV Stick 4K Plus \n\n $49.99 at Amazon \n\n#### Bottom Line\n\n...\n\nThe second-generation Amazon Fire TV Stick 4K Plus adds Wi-Fi 6 to one of the best media streaming devices at the same affordable price as the previous model.\n\n- Affordable \n- Fast performance \n- Wi-Fi 6 \n- Speedier Alexa responses \n- Plenty of apps and features\n\n...\n\n### Onn Google TV 4K Pro Streaming Device \n\n $44.73 at Walmart $49.88 Save $5.15\n\n...\n\nWalmart's Onn 4K Pro media streamer offers Google TV with hands-free voice control, Wi-Fi 6 connectivity, and all the apps you'd expect at a very reasonable price.\n\n- Streams 4K HDR with Dolby Vision and Dolby Atmos \n- Hands-free Google Assistant \n- Remote finder \n- Wi-Fi 6 support \n- Ethernet port for wired connectivity\n\n...\n\n### Amazon Fire TV Stick HD (2026) \n\n $34.99 at Amazon\n\n...\n\nAmazon upgrades the affordable Fire TV Stick HD with a slimmer, adapter-free design, faster Wi-Fi, and smoother performance, making it an excellent media streamer for 1080p"
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.nytimes.com/wirecutter/reviews/best-media-streamers/",
+       "title": "The 3 Best Media Streaming Devices of 2026",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "### Onn Google TV 4K Pro\n\n...\n\nAs Walmart’s in-house brand, Onn produces a huge array of budget-oriented tech products, and you’d be forgiven for having no idea that the Google TV 4K Pro even exists — but this streamer is actually surprisingly great for the money. Like our top pick, it’s a 4K HDR-capable streamer that supports Dolby Vision and Dolby Atmos.\n\n...\n\nBut the excellent Google TV interface is still utilized to full effect, and we found the experience to still be snappier and more enjoyable than that of the most recent Roku box, the Roku Ultra, which costs twice as much. The Onn streamer also adds one feature that the Google TV Streamer lacks: hands-free voice control by way of on-board far-field microphones. (Note to the security-wary: You can turn this off.)\n\n...\n\n## Budget pick: Onn Google TV 4K Pro\n\n...\n\n### Onn Google TV 4K Pro\n\n...\n\nThe Onn Google TV 4K Pro fills the vacancy left by the discontinued Chromecast with Google TV. It’s a reliable and affordable way to get"
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.pocket-lint.com/this-android-streamer-easily-beats-fire-stick-and-google-tv-streamer/",
+       "title": "This $60 Android streamer easily beats Fire Stick and Google TV Streamer",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "If you haven't heard of the Onn 4K Pro, it's essentially Walmart's version of the Google TV Streamer. It looks remarkably similar and supports many of the same features, including Google TV (Android), HDR10+, Dolby Atmos, and Dolby Vision. The hardware is also solid, with a quad-core CPU, 32GB of storage, and 3GB of RAM.\n\n...\n\nBut most importantly, the Onn 4K Pro's price is the real highlight. Walmart has kept it at just $60 since the new version launched earlier this year, making it $25 cheaper than the Fire TV Stick 4K Max and a whopping $90 cheaper than the Google TV Streamer.\n\nFor a while, Walmart struggled to keep the Onn 4K Pro in stock due to demand, but that's finally changed. There's been a massive restocking recently, and the Onn 4K Pro is now much more widely available to ship across the U.S., whereas just a month ago, it was practically sold out everywhere.\n\n...\n\nCompared to the Fire TV Stick 4K Max, I think the Onn 4K Pro is a much better buy given Amazon's recent price hike. The Onn 4K Pro has double the storage (32GB vs. 16GB), more RAM (3GB vs. 2GB), an Ethernet port, and a USB port, all while costing less. Also, with Amazon confirming that all future Fire TV Sticks will run Linux-based Vega OS rather than Android-based Fire OS, if you want a better Android experience in the long run, it's best to choose a Google TV device now.\n\n...\n\nThat said, the Google TV Streamer is a little tougher to compare because the Onn 4K Pro has a couple of hardware compromises. The biggest is RAM, with the Onn 4K Pro offering 3GB compared to the Google TV Streamer's 4GB. Its Ethernet port is also considerably slower, with the Onn 4K Pro limited to 100Mbps (10/100) while the Google TV Streamer has Gigabit Ethernet. However, the Onn 4K Pro does have one hardware advantage over the Google TV Streamer: Wi-Fi. It supports Wi-Fi 6, while the Google TV Streamer oddly tops out at Wi-Fi 5. That said, given that the Onn 4K Pro costs just $60, I think the RAM and Ethernet compromises are more than worth it when you're saving $90 compared to the $150 Google TV Streamer.\n\n...\n\nSo, if you're looking for a reliable streamer that runs Android and gives you the freedom that comes with it, including sideloading apps and using third-party apps, it's hard to argue with the value of the $60 Onn 4K Pro."
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.cnet.com/tech/home-entertainment/best-streaming-device/",
+       "title": "Best Streaming Device for 2026: Top Picks Reviewed",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "Roku's\n\n...\n\nBefore anything else, you'll want to consider how much you're willing to spend on a new streaming device. Higher-end devices can cost well over $100, like the Apple TV 4K and the NVIDIA Shield TV Pro. But if your budget is a little tighter, there are plenty of simpler yet still very effective streamers which are priced as low as $30.\n\n...\n\nFire TV Stick Lite: The Amazon Fire TV Stick Lite is our favorite budget streaming device, besting the Roku Express. The Lite trounces the Express in features-for-the-money. This Fire TV's biggest advantage is a remote with built-in voice search and control powered by Alexa. The cheapest Roku with a voice remote is the Express Plus 4K, which uses Roku's more basic voice system, not Alexa. The Fire Stick's remote also doesn't need line of sight to work. If you want to spend as little as possible on a streaming player, learn more about the Fire TV Stick Lite in our full review."
+      }
+     },
+     {
+      "type": "url_citation",
+      "url_citation": {
+       "url": "https://www.bestbuy.com/discover-learn/whats-the-best-streaming-device-for-you/pcmcat1691078068019",
+       "title": "What's the Best Streaming Device for You?",
+       "start_index": 0,
+       "end_index": 0,
+       "content": "- Slim design. With no blocked ports and no power brick, you can easily plug any Roku stick into your TV.\n- Roku OS. A simple, easy-to-navigate interface makes it quick to find apps, live TV and settings.\n- User-friendly interface. Roku makes it easy to customize, browse and discover new content across different streaming apps.\n- Private listening. Bluetooth headphones or earbuds can be directly connected to the Roku stick, which is ideal for late-night viewing or shared spaces.\n\n...\n\n| Model | Unique Features |\n| --- | --- |\n| Fire TV Stick HD | Best budget option and is compatible with non-4K TVs |\n| Fire TV Stick 4K Select | Most affordable 4K"
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1677,
+  "completion_tokens": 581,
+  "total_tokens": 2258,
+  "cost": 0.00760015,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00060015,
+   "upstream_inference_prompt_cost": 0.00025155,
+   "upstream_inference_completions_cost": 0.0003486
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ }
+}

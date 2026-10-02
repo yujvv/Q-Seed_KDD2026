@@ -1,0 +1,21 @@
+# Only the code, results and rebuttal evidence are published.
+/*
+!/.gitignore
+!/README.md
+!/qseed/
+!/rebuttal/
+
+# never publish
+.env
+/rebuttal/reviews.md
+/rebuttal/rebuttal.md
+
+# not needed / too large
+/qseed/node_modules/
+/qseed/.venv/
+/qseed/qseed/
+/qseed/pyproject.toml
+/qseed/uv.lock
+/qseed/data/
+/qseed/cache/embed/
+/qseed/results/rebuttal/_*.log

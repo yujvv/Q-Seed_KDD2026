@@ -1,0 +1,584 @@
+{
+ "consumer_electronics": {
+  "KW-as-Query": {
+   "n": 50,
+   "s4_auc": 0.9840211640211642,
+   "disjoint_auc": 0.9464550264550263,
+   "skeleton_auc": 0.9928571428571428,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 89.72,
+     "n": 50,
+     "auc": 0.057466666666666666
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 90,
+     "n": 50,
+     "auc": 0.05906666666666667
+    }
+   }
+  },
+  "PAA-Template": {
+   "n": 50,
+   "s4_auc": 0.9722751322751323,
+   "disjoint_auc": 0.9668783068783071,
+   "skeleton_auc": 0.9989417989417989,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 83.42,
+     "n": 50,
+     "auc": 0.24226666666666666
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 86.3,
+     "n": 50,
+     "auc": 0.22186666666666666
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 18,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 30,
+     "n": 50
+    }
+   }
+  },
+  "Naive Paraphrase": {
+   "n": 50,
+   "s4_auc": 0.9364021164021163,
+   "disjoint_auc": 0.9364550264550264,
+   "skeleton_auc": 0.9775132275132274,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 90.4,
+     "n": 50,
+     "auc": 0.0308
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 89.9,
+     "n": 50,
+     "auc": 0.0716
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 27,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 40,
+     "n": 50
+    }
+   }
+  },
+  "Forward Fan-out": {
+   "n": 50,
+   "s4_auc": 0.9496296296296297,
+   "disjoint_auc": 0.9189947089947091,
+   "skeleton_auc": 0.9685185185185187,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 85.46,
+     "n": 50,
+     "auc": 0.1744
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 89.3,
+     "n": 50,
+     "auc": 0.11093333333333333
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 36,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 42,
+     "n": 50
+    }
+   }
+  },
+  "GEO-bench-like": {
+   "n": 50,
+   "s4_auc": 0.9279365079365078,
+   "disjoint_auc": 0.9401587301587302,
+   "skeleton_auc": 0.9357142857142857,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 82.04,
+     "n": 50,
+     "auc": 0.28586666666666666
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 89.8,
+     "n": 50,
+     "auc": 0.08466666666666667
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 43,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 50,
+     "n": 50
+    }
+   }
+  },
+  "Q-SEED": {
+   "n": 50,
+   "s4_auc": 0.8883597883597882,
+   "disjoint_auc": 0.8610052910052909,
+   "skeleton_auc": 0.9411375661375662,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 81.7,
+     "n": 50,
+     "auc": 0.3041333333333333
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 88.9,
+     "n": 50,
+     "auc": 0.14893333333333333
+    }
+   }
+  },
+  "Q-SEED w/o S4": {
+   "n": 50,
+   "s4_auc": 0.9748148148148147,
+   "disjoint_auc": 0.914973544973545,
+   "skeleton_auc": 0.9750000000000001,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 80.62,
+     "n": 50,
+     "auc": 0.352
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 89.3,
+     "n": 50,
+     "auc": 0.11066666666666666
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 24,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 27,
+     "n": 50
+    }
+   }
+  },
+  "S2 pool (unselected)": {
+   "n": 300,
+   "s4_auc": 0.979647266313933,
+   "disjoint_auc": 0.9044708994708994,
+   "skeleton_auc": 0.9760802469135803
+  },
+  "__real": {
+   "claude-haiku-4.5": {
+    "meanScore": 77.38666666666667,
+    "n": 150
+   },
+   "gemini-2.5-flash": {
+    "meanScore": 83.4,
+    "n": 150
+   }
+  }
+ },
+ "personal_finance": {
+  "KW-as-Query": {
+   "n": 50,
+   "s4_auc": 0.9760846560846561,
+   "disjoint_auc": 0.9460846560846562,
+   "skeleton_auc": 0.9776455026455027,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 88.58,
+     "n": 50,
+     "auc": 0.0628
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 89.5,
+     "n": 50,
+     "auc": 0.08586666666666666
+    }
+   }
+  },
+  "PAA-Template": {
+   "n": 50,
+   "s4_auc": 0.9473015873015873,
+   "disjoint_auc": 0.9589947089947091,
+   "skeleton_auc": 0.9986772486772487,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 78.18,
+     "n": 50,
+     "auc": 0.33853333333333335
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 84.3,
+     "n": 50,
+     "auc": 0.402
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 13,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 29,
+     "n": 50
+    }
+   }
+  },
+  "Naive Paraphrase": {
+   "n": 50,
+   "s4_auc": 0.9199999999999999,
+   "disjoint_auc": 0.9425396825396826,
+   "skeleton_auc": 0.9436507936507937,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 88.1,
+     "n": 50,
+     "auc": 0.10973333333333334
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 87.5,
+     "n": 50,
+     "auc": 0.142
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 28,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 38,
+     "n": 50
+    }
+   }
+  },
+  "Forward Fan-out": {
+   "n": 50,
+   "s4_auc": 0.9423280423280422,
+   "disjoint_auc": 0.8719576719576718,
+   "skeleton_auc": 0.9760582010582011,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 83.76,
+     "n": 50,
+     "auc": 0.2516
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 89,
+     "n": 50,
+     "auc": 0.11266666666666666
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 31,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 39,
+     "n": 50
+    }
+   }
+  },
+  "GEO-bench-like": {
+   "n": 50,
+   "s4_auc": 0.9384126984126985,
+   "disjoint_auc": 0.9286243386243385,
+   "skeleton_auc": 0.9167989417989417,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 86.38,
+     "n": 50,
+     "auc": 0.14773333333333333
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 90.3,
+     "n": 50,
+     "auc": 0.0576
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 29,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 42,
+     "n": 50
+    }
+   }
+  },
+  "Q-SEED": {
+   "n": 50,
+   "s4_auc": 0.8561904761904762,
+   "disjoint_auc": 0.8910052910052911,
+   "skeleton_auc": 0.962037037037037,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 79.46,
+     "n": 50,
+     "auc": 0.42373333333333335
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 87.2,
+     "n": 50,
+     "auc": 0.22253333333333333
+    }
+   }
+  },
+  "Q-SEED w/o S4": {
+   "n": 50,
+   "s4_auc": 0.9668783068783069,
+   "disjoint_auc": 0.8926984126984128,
+   "skeleton_auc": 0.9712962962962963,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 78.18,
+     "n": 50,
+     "auc": 0.444
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 86.9,
+     "n": 50,
+     "auc": 0.24826666666666666
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 22,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 20,
+     "n": 50
+    }
+   }
+  },
+  "S2 pool (unselected)": {
+   "n": 300,
+   "s4_auc": 0.9771252204585539,
+   "disjoint_auc": 0.9024603174603172,
+   "skeleton_auc": 0.9778218694885361
+  },
+  "__real": {
+   "claude-haiku-4.5": {
+    "meanScore": 77.38666666666667,
+    "n": 150
+   },
+   "gemini-2.5-flash": {
+    "meanScore": 83.4,
+    "n": 150
+   }
+  }
+ },
+ "health_wellness": {
+  "KW-as-Query": {
+   "n": 50,
+   "s4_auc": 0.974920634920635,
+   "disjoint_auc": 0.9424338624338626,
+   "skeleton_auc": 0.9861111111111112,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 88.58,
+     "n": 50,
+     "auc": 0.0708
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 89.9,
+     "n": 50,
+     "auc": 0.05946666666666667
+    }
+   }
+  },
+  "PAA-Template": {
+   "n": 50,
+   "s4_auc": 0.9591534391534392,
+   "disjoint_auc": 0.962010582010582,
+   "skeleton_auc": 0.9994708994708995,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 77.64,
+     "n": 50,
+     "auc": 0.39426666666666665
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 85.2,
+     "n": 50,
+     "auc": 0.33666666666666667
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 27,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 37,
+     "n": 50
+    }
+   }
+  },
+  "Naive Paraphrase": {
+   "n": 50,
+   "s4_auc": 0.9444444444444444,
+   "disjoint_auc": 0.9292063492063491,
+   "skeleton_auc": 0.975925925925926,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 88.76,
+     "n": 50,
+     "auc": 0.08266666666666667
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 89.3,
+     "n": 50,
+     "auc": 0.09906666666666666
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 28,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 37,
+     "n": 50
+    }
+   }
+  },
+  "Forward Fan-out": {
+   "n": 50,
+   "s4_auc": 0.9323809523809524,
+   "disjoint_auc": 0.9067724867724868,
+   "skeleton_auc": 0.9788359788359788,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 85.64,
+     "n": 50,
+     "auc": 0.18653333333333333
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 90.1,
+     "n": 50,
+     "auc": 0.0584
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 32,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 42,
+     "n": 50
+    }
+   }
+  },
+  "GEO-bench-like": {
+   "n": 50,
+   "s4_auc": 0.9485714285714284,
+   "disjoint_auc": 0.9371428571428574,
+   "skeleton_auc": 0.9334656084656086,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 87.12,
+     "n": 50,
+     "auc": 0.12306666666666667
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 90.7,
+     "n": 50,
+     "auc": 0.043866666666666665
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 32,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 46,
+     "n": 50
+    }
+   }
+  },
+  "Q-SEED": {
+   "n": 50,
+   "s4_auc": 0.8356613756613758,
+   "disjoint_auc": 0.9207936507936509,
+   "skeleton_auc": 0.8694444444444445,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 80.82,
+     "n": 50,
+     "auc": 0.3314666666666667
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 89.1,
+     "n": 50,
+     "auc": 0.12413333333333333
+    }
+   }
+  },
+  "Q-SEED w/o S4": {
+   "n": 50,
+   "s4_auc": 0.9595767195767196,
+   "disjoint_auc": 0.9315343915343917,
+   "skeleton_auc": 0.9472222222222223,
+   "judge": {
+    "claude-haiku-4.5": {
+     "meanScore": 78.52,
+     "n": 50,
+     "auc": 0.4336
+    },
+    "gemini-2.5-flash": {
+     "meanScore": 88.2,
+     "n": 50,
+     "auc": 0.1892
+    }
+   },
+   "pairwise": {
+    "claude-haiku-4.5": {
+     "qseedWins": 27,
+     "n": 50
+    },
+    "gemini-2.5-flash": {
+     "qseedWins": 28,
+     "n": 50
+    }
+   }
+  },
+  "S2 pool (unselected)": {
+   "n": 300,
+   "s4_auc": 0.9689770723104056,
+   "disjoint_auc": 0.9097354497354498,
+   "skeleton_auc": 0.9594576719576718
+  },
+  "__real": {
+   "claude-haiku-4.5": {
+    "meanScore": 77.38666666666667,
+    "n": 150
+   },
+   "gemini-2.5-flash": {
+    "meanScore": 83.4,
+    "n": 150
+   }
+  }
+ }
+}

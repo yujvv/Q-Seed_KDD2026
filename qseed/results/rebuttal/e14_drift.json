@@ -1,0 +1,176 @@
+{
+ "consumer_electronics": {
+  "sonar": {
+   "july": {
+    "top": [
+     "youtube.com 78%",
+     "reddit.com 52%",
+     "techradar.com 41%",
+     "pcmag.com 41%",
+     "rtings.com 37%"
+    ],
+    "ugcShare": 0.12064965197215777,
+    "domainsPerAnswer": 11.493333333333334,
+    "distinct": 274
+   },
+   "october": {
+    "top": [
+     "nytimes.com 56%",
+     "techradar.com 56%",
+     "pcmag.com 52%",
+     "tomsguide.com 48%",
+     "bestbuy.com 46%"
+    ],
+    "ugcShare": 0.005780346820809248,
+    "domainsPerAnswer": 17.3,
+    "distinct": 284
+   }
+  },
+  "gpt4o-online": {
+   "july": {
+    "top": [
+     "cnet.com 24%",
+     "pcmag.com 23%",
+     "nytimes.com 15%",
+     "reviewed.com 10%",
+     "rtings.com 9%"
+    ],
+    "ugcShare": 0,
+    "domainsPerAnswer": 4.706666666666667,
+    "distinct": 171
+   },
+   "october": {
+    "top": [
+     "nytimes.com 26%",
+     "pcmag.com 20%",
+     "cnet.com 20%",
+     "reviewed.com 16%",
+     "rtings.com 14%"
+    ],
+    "ugcShare": 0,
+    "domainsPerAnswer": 4.62,
+    "distinct": 131
+   }
+  },
+  "cross": {
+   "july": 0.17724037476613505,
+   "october": 0.46598807148343796
+  }
+ },
+ "personal_finance": {
+  "sonar": {
+   "july": {
+    "top": [
+     "youtube.com 70%",
+     "nerdwallet.com 56%",
+     "reddit.com 47%",
+     "bankrate.com 46%",
+     "forbes.com 40%"
+    ],
+    "ugcShare": 0.10610932475884244,
+    "domainsPerAnswer": 12.44,
+    "distinct": 327
+   },
+   "october": {
+    "top": [
+     "forbes.com 70%",
+     "nerdwallet.com 70%",
+     "cnbc.com 56%",
+     "yahoo.com 52%",
+     "bankrate.com 52%"
+    ],
+    "ugcShare": 0.015267175572519083,
+    "domainsPerAnswer": 15.72,
+    "distinct": 307
+   }
+  },
+  "gpt4o-online": {
+   "july": {
+    "top": [
+     "bankrate.com 35%",
+     "nerdwallet.com 29%",
+     "forbes.com 15%",
+     "investopedia.com 15%",
+     "fool.com 15%"
+    ],
+    "ugcShare": 0,
+    "domainsPerAnswer": 4.76,
+    "distinct": 159
+   },
+   "october": {
+    "top": [
+     "nerdwallet.com 22%",
+     "investopedia.com 18%",
+     "forbes.com 16%",
+     "cnbc.com 16%",
+     "nasdaq.com 14%"
+    ],
+    "ugcShare": 0.004166666666666667,
+    "domainsPerAnswer": 4.8,
+    "distinct": 137
+   }
+  },
+  "cross": {
+   "july": 0.21194319921711652,
+   "october": 0.5420588612294207
+  }
+ },
+ "health_wellness": {
+  "sonar": {
+   "july": {
+    "top": [
+     "healthline.com 61%",
+     "youtube.com 57%",
+     "clevelandclinic.org 31%",
+     "mayoclinic.org 29%",
+     "nih.gov 27%"
+    ],
+    "ugcShare": 0.06201947719118401,
+    "domainsPerAnswer": 13.006666666666666,
+    "distinct": 417
+   },
+   "october": {
+    "top": [
+     "healthline.com 80%",
+     "clevelandclinic.org 38%",
+     "nih.gov 34%",
+     "mayoclinic.org 34%",
+     "harvard.edu 32%"
+    ],
+    "ugcShare": 0.0049261083743842365,
+    "domainsPerAnswer": 16.24,
+    "distinct": 366
+   }
+  },
+  "gpt4o-online": {
+   "july": {
+    "top": [
+     "healthline.com 21%",
+     "mayoclinic.org 15%",
+     "cdc.gov 13%",
+     "harvard.edu 12%",
+     "nih.gov 12%"
+    ],
+    "ugcShare": 0,
+    "domainsPerAnswer": 4.78,
+    "distinct": 204
+   },
+   "october": {
+    "top": [
+     "nih.gov 22%",
+     "mayoclinic.org 20%",
+     "clevelandclinic.org 18%",
+     "healthline.com 18%",
+     "cdc.gov 14%"
+    ],
+    "ugcShare": 0,
+    "domainsPerAnswer": 4.82,
+    "distinct": 152
+   }
+  },
+  "cross": {
+   "july": 0.13307365920379605,
+   "october": 0.49705143632085885
+  }
+ }
+}
